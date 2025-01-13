@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { bg_intro1, bg_intro2, i1, i2, i3, i4 } from "@public/images";
+import { bg_intro2, i1, i2, i3, i4 } from "@public/images";
 import { cham_intro } from "@public/icons";
 export const IntroduceBottom = () => {
     return (
