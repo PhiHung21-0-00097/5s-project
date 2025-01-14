@@ -1,7 +1,6 @@
 import { fb, int, it, logo_ft, tw } from "@public/images";
 import Image from "next/image";
 import Link from "next/link";
-import { ScrollTop } from "../ScrollTop";
 
 const contactInfo = [
     {
@@ -100,7 +99,6 @@ export const Footer = () => (
             </div>
         </div>
 
-        <ScrollTop />
         <div className="text-center p-3 text-[14px]">
             Copyright © 2023 XE NÂNG VÂN ANH. All rights reserved. Design by
             i-web.vn
