@@ -29,8 +29,8 @@ export const Header = () => {
                             <Link
                                 href={href}
                                 className="text-black text-[17px] uppercase py-[7px] px-[13px] rounded-[3px] 
-                  hover:bg-purple hover:text-white transition-all ease-in-out duration-500 
-                  active:bg-purple active:text-white cursor-pointer"
+                  				hover:bg-purple hover:text-white transition-all ease-in-out duration-500 
+                  				active:bg-purple active:text-white cursor-pointer"
                             >
                                 {title}
                             </Link>
