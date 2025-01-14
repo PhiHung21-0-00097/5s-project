@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const listHeader = [
-    { title: "Về Otis Luxury", href: "/about" },
+    { title: "Về Chúng Tôi", href: "/about" },
     { title: "Dịch vụ cung cấp", href: "/services" },
     { title: "Portfolio", href: "/portfolio" },
     { title: "Đối tác", href: "/partners" },
