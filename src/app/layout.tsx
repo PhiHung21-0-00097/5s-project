@@ -5,17 +5,18 @@ import "./globals.css";
 const geistSans = Geist({
     variable: "--font-geist-sans",
     subsets: ["latin"],
+    display: "swap",
 });
 
 const geistMono = Geist_Mono({
     variable: "--font-geist-mono",
     subsets: ["latin"],
+    display: "swap",
 });
 
 export const metadata: Metadata = {
     title: "Otis Luxury | [Otis Luxury]",
     description: "otis nguyễn",
-    keywords: "otis,nguyễn, otisnguyen, otis nguyễn,luxury,otisluxury,",
     authors: [
         { name: "Otis Nguyễn", url: "https://www.nguyenhoangphihung.id.vn/" },
     ],
@@ -40,7 +41,7 @@ export const metadata: Metadata = {
         site: "@YourTwitterHandle",
         title: "Otis Luxury | [Otis Luxury]",
         description: "otis nguyễn",
-        // image: "https://www.yoursite.com/twitter-image.jpg",
+        images: ["https://www.yoursite.com/twitter-image.jpg"],
     },
 };
 
@@ -50,7 +51,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" suppressHydrationWarning>
+        <html lang="en">
             <body
                 className={`${geistSans.variable || ""} ${
                     geistMono.variable || ""

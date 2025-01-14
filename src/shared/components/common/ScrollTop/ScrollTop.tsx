@@ -2,32 +2,32 @@
 import { useEffect, useState } from "react";
 
 export const ScrollTop = () => {
-    const [scrollTop, setScrollTop] = useState(false);
+    // const [scrollTop, setScrollTop] = useState(false);
 
-    useEffect(() => {
-        window.addEventListener("scroll", () => {
-            if (window.scrollY > 300) {
-                setScrollTop(true);
-            } else {
-                setScrollTop(false);
-            }
-        });
-    }, []);
+    // useEffect(() => {
+    //     window.addEventListener("scroll", () => {
+    //         if (window.scrollY > 300) {
+    //             setScrollTop(true);
+    //         } else {
+    //             setScrollTop(false);
+    //         }
+    //     });
+    // }, []);
 
-    const scrollUp = () => {
-        window.scrollTo({
-            top: 0,
+    // const scrollUp = () => {
+    //     window.scrollTo({
+    //         top: 0,
 
-            behavior: "smooth",
-        });
-    };
+    //         behavior: "smooth",
+    //     });
+    // };
     return (
         <div className="ScroolTop">
-            {scrollTop && (
+            {/* {scrollTop && (
                 <button className="Btn len " onClick={scrollUp}>
                     ↑
                 </button>
-            )}
+            )} */}
         </div>
     );
 };
