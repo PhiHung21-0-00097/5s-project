@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Chạy ứng dụng Next.js
-CMD ["npm", "run", "dev"]
+CMD ["npm", "run", "start"]
 
 # Mở cổng 3000
 EXPOSE 3000
