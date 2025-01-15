@@ -4,4 +4,4 @@
 docker-compose down
 
 # Build lại container và chạy trong chế độ nền
-docker-compose up -d --build 
+docker-compose up -d --build
