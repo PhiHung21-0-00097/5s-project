@@ -6,5 +6,11 @@ services:
             - "2711:3000"
         volumes:
             - .:/app
+
         environment:
             - NODE_ENV=production
+        networks:
+            - my-network
+networks:
+    my-network:
+        driver: bridge
