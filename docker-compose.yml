@@ -2,7 +2,7 @@ version: "3.3"
 services:
     app:
         build: .
-        image: nginx:latest
+
         ports:
             - "2711:3000"
         volumes:
