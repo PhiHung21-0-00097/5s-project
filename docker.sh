@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Dừng và xoá container cũ
 docker-compose down
 
