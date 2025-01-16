@@ -1,9 +1,4 @@
-import {
-    window,
-    window_car,
-    window_shadow,
-    window_white,
-} from "@public/images";
+import { window, window_shadow } from "@public/images";
 import Image from "next/image";
 
 export const Window = () => {

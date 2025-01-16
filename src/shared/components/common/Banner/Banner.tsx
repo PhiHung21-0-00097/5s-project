@@ -1,4 +1,4 @@
-import { i1, i2, i3, i4, i5, i6, i7, i8, lambo } from "@public/images";
+import { lambo } from "@public/images";
 
 import Image from "next/image";
 

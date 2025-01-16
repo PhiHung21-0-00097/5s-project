@@ -1,4 +1,4 @@
-import { fb, int, it, logo_ft, tw } from "@public/images";
+import { fb, int, it, tw } from "@public/images";
 import Image from "next/image";
 import Link from "next/link";
 
